@@ -1,5 +1,4 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
 import PropTypes from 'prop-types';
 import GradientSlider from './GradientSlider';
 import SaturationGradient from '../gradients/SaturationGradient';
@@ -27,8 +26,6 @@ const SaturationSlider = ({
   );
 };
 
-export default SaturationSlider;
-
 SaturationSlider.propTypes = {
   value: PropTypes.number.isRequired,
   color: PropTypes.shape({
@@ -39,3 +36,5 @@ SaturationSlider.propTypes = {
   onValueChange: PropTypes.func.isRequired,
   gradientSteps: PropTypes.number.isRequired
 };
+
+export default SaturationSlider;

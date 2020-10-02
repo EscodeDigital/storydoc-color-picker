@@ -1,7 +1,7 @@
 {
-  "name": "react-native-color",
-  "version": "0.0.10",
-  "description": "Color components for React Native",
+  "name": "@storydoc/color-picker",
+  "version": "0.0.1",
+  "description": "React Native color picker components used in Storydoc app.",
   "main": "src/index.js",
   "files": [
     "src/"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hectahertz/react-native-color.git"
+    "url": "git+https://github.com/EscodeDigital/storydoc-color-picker.git"
   },
   "keywords": [
     "react-native",
@@ -26,19 +26,27 @@
     "color",
     "picker"
   ],
+  "contributors": [
+    {
+      "name": "Edward Mowle",
+      "email": "edward.mowle@escode.co.uk",
+      "url": "https://escode.co.uk"
+    },
+    {
+      "name": "Khadia Mowle",
+      "email": "khadiaevans@gmail.com",
+      "url": "https://escode.co.uk"
+    }
+  ],
   "author": "hectahertz <hectahertz@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hectahertz/react-native-color/issues"
-  },
-  "homepage": "https://github.com/hectahertz/react-native-color#readme",
   "dependencies": {
-    "prop-types": "^15.6.0",
-    "react-native-slider": "^0.11.0",
-    "tinycolor2": "^1.4.1"
+    "@react-native-community/slider": "^3.0.3",
+    "prop-types": "^15.7.2",
+    "tinycolor2": "^1.4.2"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react": "^16.11.0",
+    "react-native": "^0.62.2"
   }
 }
